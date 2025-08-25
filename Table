@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <meta charset="UTF-8">
+ <meta name="viewport" content="width=deivce-width, initial-scale=1.0"/>
+ <title>Nested Table</title>
+ <body>
+  <table cellpadding="0" cellspacing="0" border="1">
+    <tr width="300"  height="100">
+        <td width="60"></td>
+        <td width="60"></td>
+        <!-- <three start></three> -->
+        <td width="60">
+        <table>
+            <tr width="60" height="50">
+                <td width="60"></td>
+            </tr>
+            <tr width="60" height="50">
+                <td width="60"></td>
+            <table>
+            <tr>
+                <td width="50" height="40"></td>
+                <td width="50" height="40">
+            </tr>
+                <td width="50"></td>
+            </tr>
+            <tr width="50" height="40">
+                <td width="50"></td>
+                </tr>    
+
+
+        </table>
+        <td width="600"></td>
+        <td width="600"></td>
+    </tr>
+     <tr width="300"  height="100">
+        <td width="600"></td>
+        <td width="600"> 
+          <table border="1">
+            <tr>
+           <td width="300" height="100"></td>
+           <td width="300" height="100"></td> 
+           </tr>
+          </table>  
+        </td>
+    
+        <td width="600"></td>
+        <td width="600"></td>
+        <td width="600"></td>
+    </tr>
+
+  </table> 
+ </body>
+</head>
+</html>
